@@ -1,0 +1,21 @@
+{
+  "float": [
+    {
+      "class": "pop-shell-example",
+      "title": "pop-shell-example"
+    },
+    {
+      "class": "ij-ImageJ"
+    },
+    {
+      "class": "matplotlib"
+    },
+    {
+      "class": "Eog"
+    }
+  ],
+  "skiptaskbarhidden": [],
+  "log_on_focus": false,
+  "move_pointer_on_switch": false,
+  "default_pointer_position": "TOP_LEFT"
+}
