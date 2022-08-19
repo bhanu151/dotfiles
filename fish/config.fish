@@ -32,4 +32,5 @@ set PATH ~/.local/bin ~/.cargo/bin $PATH
 set HOME /home/bhanu
 set TERMCMD alacritty
 set TERM alacritty
+set EDITOR nvim
 
