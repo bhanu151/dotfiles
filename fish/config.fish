@@ -22,6 +22,7 @@ alias p="python3"
 
 alias gulgula="ssh -X bhanu@gulgula"
 alias bebinca="ssh -X bhanups@bebinca"
+alias xutuli="ssh -X bhanups@xutuli"
 
 #==============================================================================
 # GLOBAL ENVIRONMENT VARIABLES
