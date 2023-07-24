@@ -19,6 +19,7 @@ set -g theme_color_scheme nord
 #==============================================================================
 alias v="nvim"
 alias p="python3"
+alias python="python3"
 
 alias gulgula="ssh -X bhanu@gulgula"
 alias bebinca="ssh -X bhanups@bebinca"
@@ -34,4 +35,9 @@ set HOME /home/bhanu
 set TERMCMD alacritty
 set TERM alacritty
 set EDITOR nvim
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+eval /home/bhanu/packages/miniconda3/bin/conda "shell.fish" "hook" $argv | source
+# <<< conda initialize <<<
 

@@ -1,8 +1,9 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export --path GOPATH:/home/bhanu/go
 SETUVAR --export --path PYTHONPATH:/home/bhanu/moose_core_jalebi_4_0_0/_build/python/
 SETUVAR --export TERMCMD:alacritty
-SETUVAR __fish_initialized:3400
+SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_gad:git\x20add
 SETUVAR _fish_abbr_gbh:git\x20branch
 SETUVAR _fish_abbr_gck:git\x20checkout
@@ -15,6 +16,10 @@ SETUVAR _fish_abbr_gpl:git\x20pull
 SETUVAR _fish_abbr_grm:git\x20rm
 SETUVAR _fish_abbr_gss:git\x20status
 SETUVAR _fish_abbr_gtr:git\x20log\x20\x2d\x2dall\x20\x2d\x2ddecorate\x20\x2d\x2doneline\x20\x2d\x2dgraph
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1eurbainvaes/fzf\x2dmarks
+SETUVAR _fisher_upgraded_to_4_4:\x1d
+SETUVAR _fisher_urbainvaes_2F_fzf_2D_marks_files:\x7e/\x2econfig/fish/conf\x2ed/fzf\x2dmarks\x2eplugin\x2efish
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:005fd7
