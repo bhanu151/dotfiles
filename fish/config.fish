@@ -36,6 +36,26 @@ set TERMCMD alacritty
 set TERM alacritty
 set EDITOR nvim
 
+#==============================================================================
+# ABBREVIATIONS
+#==============================================================================
+if status --is-interactive
+    abbr --add --global gad git add
+    abbr --add --global gck git checkout
+    abbr --add --global gph git push
+    abbr --add --global gpl git pull
+    abbr --add --global gfh git fetch
+    abbr --add --global glg git log -n 7 --reverse
+    abbr --add --global gbh git branch
+    abbr --add --global gct git commit -m
+    abbr --add --global gdf git diff
+    abbr --add --global grm git rm
+    abbr --add --global gss git status
+    abbr --add --global gtr git log --all --decorate --oneline --graph
+    abbr --add --global lg lazygit
+    # etcetera
+end
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 eval /home/bhanu/packages/miniconda3/bin/conda "shell.fish" "hook" $argv | source
