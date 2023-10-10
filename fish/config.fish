@@ -31,7 +31,7 @@ alias xutuli="ssh -X bhanups@xutuli"
 #fish_add_path ~/.local/bin/
 #fish_add_path ~/.cargo/bin/
 set PATH ~/.local/bin ~/.cargo/bin $PATH
-set HOME /home/bhanu
+set HOME /home/bhalla/bhanups
 set TERMCMD alacritty
 set TERM alacritty
 set EDITOR nvim
@@ -58,6 +58,8 @@ end
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-eval /home/bhanu/packages/miniconda3/bin/conda "shell.fish" "hook" $argv | source
+if test -f /home/bhalla/bhanups/miniconda3/bin/conda
+    eval /home/bhalla/bhanups/miniconda3/bin/conda "shell.fish" "hook" $argv | source
+end
 # <<< conda initialize <<<
 
