@@ -1,7 +1,7 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export --path GOPATH:/home/bhanu/go
-SETUVAR --export --path PYTHONPATH:/home/bhanu/moose_core_jalebi_4_0_0/_build/python/
+SETUVAR --export --path PYTHONPATH:/home/bhalla/bhanups/packages/moose-core/_build/python/
 SETUVAR --export QT_QPA_PLATFORM:offscreen
 SETUVAR --export TERMCMD:alacritty
 SETUVAR __fish_initialized:3400
